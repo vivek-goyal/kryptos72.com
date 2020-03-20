@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Google Maps Preview</title>
+
+    <style>
+        .eapps-preview {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="eapps-preview">
+        <div class="eapps-preview-widget"></div>
+
+        <div class="eapps-preview-popup">
+            <div class="eapps-preview-popup-inner">
+                <div class="eapps-preview-form">
+                    <div class="eapps-preview-form-image"></div>
+                    <div class="eapps-preview-form-title">Set Google Maps API Key</div>
+                    <div class="eapps-preview-form-description">
+                        Setting your own Google Maps API Key is neccessary due to the changes of Google Maps policy that come into effect on July 16, 2018. Find out more at <a href="https://mapsplatform.googleblog.com/2018/05/introducing-google-maps-platform.html" target="_blank" rel="nofollow">link</a>.<br><br>
+                        The following tutorial explains how to get your API Key in an easy way: <a href="https://elfsight.com/blog/2018/06/how-to-get-google-maps-api-key-guide/?_ga=2.21902136.20160435.1530514999-2054173649.1525942368" target="_blank">How to get Google Maps API Key</a>.
+                    </div>
+                    <input class="eapps-preview-form-input" placeholder="Your Google Maps API key"/>
+                    <div class="eapps-preview-form-error">API Key is not valid</div>
+                    <a class="eapps-preview-form-button">Save API Key</a>
+                </div>
+            </div>
+
+            <div class="eapps-preview-popup-overlay"></div>
+        </div>
+
+    </div>
+
+    <script src="preview.bundled.js"></script>
+</body>
+</html>

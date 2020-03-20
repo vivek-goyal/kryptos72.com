@@ -1,0 +1,206 @@
+1.8.1
+- name changed to MailChimper PRO
+
+1.8
+- added checkbox custom field
+- fixed social signup issue
+- minor improvements
+
+1.7.9.1
+- fixed SSL issue
+
+1.7.9
+- added option to force initialization in the shortcode with init="true"
+- added option to display form with shortcode on all pages with allpage="true"
+- added Custom CSS feature
+- improvements on creating form
+- improved saved forms screen
+- added duplicate form feature
+- reconstructed documentation
+- minor bugfixes
+
+1.7.8
+- fixed textarea and select different font family issue
+
+1.7.7
+- fixed image upload issue
+- fixed display delay timer issue
+
+1.7.6
+- added option to disable the form for members
+
+1.7.5
+- added custom fields to export
+- export replaced with HTML5 methods
+
+1.7.4
+- fixed subscribers ordering issue
+- added bulk delete option to the subscribers list
+- fixed exporting issue
+
+1.7.3
+- fixed Campaign Monitor NAME value issue
+- added subscriber's IP Address and Date to the signup notification email
+
+1.7.2
+- added disable on mobile option
+
+1.7.1
+- fixed embed mode duplication issue
+
+1.7
+- fixed minor JavaScript conflict in FireFox
+- fixed different placeholder colors in FireFox
+- fixed image width in mobile view
+
+1.6.9
+- added hidden custom field
+- fixed minor bugs in subscribers' view on admin
+- minor improvements for custom fields on frontend
+- fixed Safari animation issue
+
+1.6.8
+- fixed subscribe button position issue
+
+1.6.7
+- support WordPress Multisites
+- added option to set the plugin initialization hook
+
+1.6.6
+- fixed minor issue with YouTube autoplay
+- minor improvements on admin
+
+1.6.5
+- improved shortcode management
+- improved embed display
+- added option to redirect the user after a successful signup
+
+1.6.4
+- changed manual updater to call plugin activation automatically
+- improved mail sending for notifications
+
+1.6.3
+- added option to include image to the content or as background
+
+1.6.2
+- added MailPoet API
+- improved background lock
+
+1.6.1
+- fixed minor conflict with Google Analytics
+- display errors passed from MailChimp
+
+1.6.0
+- fixed minor compatibility issue with MailChimp
+- added option to use packed or unpacked script on the frontend
+- added element effects, provides 200+ animation combinations
+- added embed version
+- added option to add signup form shortcode to text widget
+- reconstructed frontend script for improving performance
+- added option to use YouTube video as background
+- support multiple instances
+- added optional animation to embed style
+- updated documentation
+- fixed minor typo in Shortcode Manager
+- improved admin
+- improved minor visibility issue on frontend
+- added additional shortcode options to the shortcode manager
+
+1.5.9
+- added WordPress Manual Updater (from ZIP)
+- added popup window on admin to display subscriber informations
+- fixed minor animation visibility issue on Internet Explorer
+
+1.5.8
+- integrated charts to stats (Bar Chart - stats by date, Polar Chart - stats by forms, Pie Chart - stats by links)
+- updated documentation
+- fixed minor bugs on admin
+
+1.5.7
+- restructured admin pages
+- added Google Analytics API to Stats
+- added Export options to Stats (Copy, CSV, Excel, PDF, Print)
+- added Stats by link, form and date
+- added Subscribers List
+
+1.5.6
+- fixed live preview bug on admin
+
+1.5.5
+- added YMLP API
+- added SimplyCast API
+- added Shortcode Manager to insert the plugin's shortcodes easier
+- minor improvements on admin
+- added Stats to admin
+- added option to enable Stats
+
+1.5.1
+- added MyMail API
+- added MadMimi API
+- minor style improvements on admin
+- fixed minor MailChimp issue
+
+1.5
+- improved styles on admin
+- added YouTube integration options on admin
+- added Active Campaign API
+- added Benchmark API
+- added Campaign Monitor API
+- added Campayn API
+- added Constant Contact API
+- added Freshmail API
+- added GetResponse API
+- added option to keep setting during uninstall (for update process)
+- updated documentation
+
+1.4.5
+- fixed minor bug with Live Preview on admin
+- minor improvements on admin
+
+1.4.4
+- restyled buttons on admin
+- improved SQL security
+- improved email sendings
+- updated documentation
+
+1.4.3
+- added option to display different signup forms with shortcode for once per user
+- added option to display different signup forms with shortcode for once per signup
+- slightly modified preloader on admin
+- fixed minor misspelling on admin
+- fixed minor bug with cookies
+
+1.4.2
+- added YouTube video support
+- added automatic height detection, no longer needs to specify the overall height when you added images to the signup form
+- fixed minor CSS issues
+- updated documentation
+- fixed minor FireFox issue
+
+1.4.1
+- minor code optimization
+- minor changes in the documentation
+
+1.4
+- added more animation types (slide, rotate, perspective, scale)
+- option to add unlimited custom fields
+- added signup with Facebook
+- added signup with Google Plus
+- added option to set margin for custom fields
+- added option to disable open with link method
+- added option to display footer text
+- added option to set border radius
+- added option to hide signup form for already signed up users
+- added option to enable or disable form closing with clicking on the background layer
+- opacity setting deprecated
+- updated documentation
+
+
+1.3.1
+- fixed jQuery conflict with jQuery Migrate Plugin
+- removed NameSpace avoid some PHP version conflicts
+
+1.3
+- added option to lock the screen with ability to close the popup clicking on the transparent layer
+- added option to hide the popup's close button (usable with lock the screen setting)
+- optimized form elements to avoid conflicts with other forms of the website

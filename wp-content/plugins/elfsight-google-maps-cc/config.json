@@ -1,0 +1,1031 @@
+{
+  "observerUrl": "./preview/dist/google-maps-observer.js",
+  "settings": {
+    "tabs": [
+      {
+        "id": "markers",
+        "name": "Markers",
+        "active": true
+      },
+      {
+        "id": "layout",
+        "name": "Layout"
+      },
+      {
+        "id": "map",
+        "name": "Map"
+      },
+      {
+        "id": "style",
+        "name": "Style"
+      }
+    ],
+    "properties": [
+      {
+        "id": "markers",
+        "name": "Markers",
+        "tab": "markers",
+        "type": "complex",
+        "complex": {
+          "properties": [
+            {
+              "id": "position",
+              "name": "Position (address, coordinates)",
+              "type": "custom",
+              "custom": {
+                "type": "google-maps-coordinates",
+                "action": "send"
+              },
+              "defaultValue": "",
+              "description": "Set the marker's position. You can set its name or address in text format or set the specific coordinates (latitude, longitude separated by a comma)."
+            },
+            {
+              "id": "coordinates",
+              "name": "Coordinates",
+              "type": "custom",
+              "custom": {
+                "type": "google-maps-coordinates",
+                "action": "receive"
+              },
+              "visible": false,
+              "defaultValue": "",
+              "description": "Set the marker's coordinates (latitude, longitude separated by a comma)."
+            },
+            {
+              "id": "icon",
+              "name": "Icon",
+              "type": "select",
+              "select": {
+                "options": [
+                  {
+                    "value": "default",
+                    "name": "Default"
+                  },
+                  {
+                    "value": "custom",
+                    "name": "Custom"
+                  },
+                  {
+                    "value": "airport",
+                    "name": "Airport"
+                  },
+                  {
+                    "value": "atm",
+                    "name": "ATM"
+                  },
+                  {
+                    "value": "bus",
+                    "name": "Bus"
+                  },
+                  {
+                    "value": "bar",
+                    "name": "Bar"
+                  },
+                  {
+                    "value": "businessCenter",
+                    "name": "Business Center"
+                  },
+                  {
+                    "value": "cafe",
+                    "name": "Cafe"
+                  },
+                  {
+                    "value": "camping",
+                    "name": "Camping"
+                  },
+                  {
+                    "value": "cinema",
+                    "name": "Cinema"
+                  },
+                  {
+                    "value": "flag",
+                    "name": "Flag"
+                  },
+                  {
+                    "value": "gasStation",
+                    "name": "Gas Station"
+                  },
+                  {
+                    "value": "home",
+                    "name": "Home"
+                  },
+                  {
+                    "value": "hospital",
+                    "name": "Hospital"
+                  },
+                  {
+                    "value": "info",
+                    "name": "Info"
+                  },
+                  {
+                    "value": "library",
+                    "name": "Library"
+                  },
+                  {
+                    "value": "museum",
+                    "name": "Museum"
+                  },
+                  {
+                    "value": "parking",
+                    "name": "Parking"
+                  },
+                  {
+                    "value": "pin",
+                    "name": "Pin"
+                  },
+                  {
+                    "value": "port",
+                    "name": "Port"
+                  },
+                  {
+                    "value": "railway",
+                    "name": "Railway"
+                  },
+                  {
+                    "value": "restaurant",
+                    "name": "Restaurant"
+                  },
+                  {
+                    "value": "school",
+                    "name": "School"
+                  },
+                  {
+                    "value": "shopping",
+                    "name": "Shopping"
+                  },
+                  {
+                    "value": "sight",
+                    "name": "Sight"
+                  },
+                  {
+                    "value": "star",
+                    "name": "Star"
+                  },
+                  {
+                    "value": "subway",
+                    "name": "Subway"
+                  },
+                  {
+                    "value": "walk",
+                    "name": "Walk"
+                  },
+                  {
+                    "value": "wc",
+                    "name": "WC"
+                  },
+                  {
+                    "value": "wifi",
+                    "name": "Wi-Fi"
+                  },
+                  {
+                    "value": "zoo",
+                    "name": "Zoo"
+                  },
+                  {
+                    "value": "number1",
+                    "name": "1"
+                  },
+                  {
+                    "value": "number2",
+                    "name": "2"
+                  },
+                  {
+                    "value": "number3",
+                    "name": "3"
+                  },
+                  {
+                    "value": "number4",
+                    "name": "4"
+                  },
+                  {
+                    "value": "number5",
+                    "name": "5"
+                  },
+                  {
+                    "value": "number6",
+                    "name": "6"
+                  },
+                  {
+                    "value": "number7",
+                    "name": "7"
+                  },
+                  {
+                    "value": "number8",
+                    "name": "8"
+                  },
+                  {
+                    "value": "number9",
+                    "name": "9"
+                  }
+                ]
+              },
+              "defaultValue": "default",
+              "description": "Set the marker's icon. You can select a default Google Map icon, or one of the icons from our library. If you can't find the icon you're looking for, set the custom icon url in the field below."
+            },
+            {
+              "id": "iconUrl",
+              "name": "Custom icon url (40x40 px, png)",
+              "type": "text",
+              "defaultValue": "",
+              "visible": false,
+              "description": "Set your custom marker icon URL. Size: 40x40, Format: PNG. You can upload it to any server or file manager to make it publicly available."
+            },
+            {
+              "id": "infoWindow",
+              "name": "Show info window",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "The option allows you to open an information window by clicking on the marker."
+            },
+            {
+              "id": "infoTitle",
+              "name": "Title",
+              "type": "text",
+              "defaultValue": "",
+              "description": "Set the marker's title for the info window. Usually, it's the name of the place marker indicates."
+            },
+            {
+              "id": "infoDescription",
+              "name": "Description",
+              "type": "textarea",
+              "defaultValue": "",
+              "textarea": {
+                "enableRichEdit": true,
+                "enableRichEditHtml": true
+              },
+              "description": "The marker's description on the info window."
+            },
+            {
+              "id": "infoImage",
+              "name": "Info window image URL",
+              "type": "text",
+              "defaultValue": "",
+              "description": "Set the URL of the image to be displayed on the info window. Usually, it's an image of the indicated place."
+            },
+            {
+              "id": "infoAddress",
+              "name": "Info address",
+              "type": "text",
+              "defaultValue": "",
+              "description": "Set the address to be displayed on the info window."
+            },
+            {
+              "id": "infoSite",
+              "name": "Info site",
+              "type": "text",
+              "defaultValue": "",
+              "description": "Set the website URL to be displayed on the info window."
+            },
+            {
+              "id": "infoPhone",
+              "name": "Info phone",
+              "type": "text",
+              "defaultValue": "",
+              "description": "Set the phone number to be displayed on the info window."
+            },
+            {
+              "id": "infoEmail",
+              "name": "Info email",
+              "type": "text",
+              "defaultValue": "",
+              "description": "Set the email to be displayed on the info window."
+            },
+            {
+              "id": "infoWorkingHours",
+              "name": "Info working hours",
+              "type": "text",
+              "defaultValue": "",
+              "description": "Set the working hours to be displayed on the info window."
+            },
+            {
+              "id": "infoDirections",
+              "name": "Show directions button",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Display directions button in the info window. This button allows to set the directions from your current position to the marker. Works only with https."
+            },
+            {
+              "id": "infoWindowOpenedByDefault",
+              "name": "Open info window by default",
+              "type": "toggle",
+              "defaultValue": false,
+              "description": "The option allows you to make an information window opened by default."
+            },
+            {
+              "id": "animation",
+              "name": "Animation",
+              "type": "select-inline",
+              "selectInline": {
+                "options": [
+                  {
+                    "value": "none",
+                    "name": "None"
+                  },
+                  {
+                    "value": "drop",
+                    "name": "Drop"
+                  },
+                  {
+                    "value": "bounce",
+                    "name": "Bounce"
+                  }
+                ]
+              },
+              "defaultValue": "none",
+              "description": "Set marker animation."
+            },
+            {
+              "id": "linkUrl",
+              "name": "Link URL",
+              "type": "text",
+              "defaultValue": "",
+              "description": "Set the link URL and this link will be opened in a new browser tab by clicking on the marker."
+            }
+          ]
+        },
+        "allowEmpty": true,
+        "defaultValue": [
+          {
+            "position": "1600 Amphitheatre Pkwy, USA",
+            "coordinates": "37.4224082, -122.0856086",
+            "icon": "default",
+            "iconUrl": "",
+            "infoWindow": true,
+            "infoTitle": "Googleplex",
+            "infoDescription": "The Googleplex is the corporate headquarters complex of Google, Inc. and its parent company Alphabet Inc.",
+            "infoImage": "https://elfsight.com/assets/google-maps-marker-image.jpg",
+            "infoAddress": "1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA",
+            "infoSite": "google.com",
+            "infoPhone": "+1 650-253-0000",
+            "infoEmail": "info@google.com",
+            "infoWorkingHours": "from 9am to 6pm CET Monday-Friday",
+            "infoDirections": true,
+            "infoWindowOpenedByDefault": true,
+            "animation": "none",
+            "linkUrl": ""
+          }
+        ],
+        "description": "Add markers to display them on the map."
+      },
+      {
+        "id": "width",
+        "name": "Width (px, %, auto)",
+        "tab": "layout",
+        "type": "text",
+        "defaultValue": "auto",
+        "description": "Set the map width in pixels or %, or select \"auto\" and it will fit the container width."
+      },
+      {
+        "id": "height",
+        "name": "Height (px)",
+        "tab": "layout",
+        "type": "text",
+        "defaultValue": "700",
+        "description": "Set the map height in pixels."
+      },
+      {
+        "id": "divider",
+        "tab": "layout",
+        "type": "divider"
+      },
+      {
+        "id": "locationsList",
+        "name": "Locations Panel",
+        "tab": "layout",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "locationsListEnabled",
+              "name": "Display panel",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Activate this setting to display your locations in a side panel. Clicking on a location in the list will bring up its info window on the map."
+            },
+            {
+              "id": "locationsListOpenedByDefault",
+              "name": "Show / hide by default",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Activate this setting to display the open locations list by default. Deactivate it to display only the panel header by default."
+            },
+            {
+              "id": "locationsListTitle",
+              "name": "Panel Title",
+              "type": "text",
+              "defaultValue": "Locations List",
+              "description": "Set the panel title depending on the locations type you display (e.g. Our stores, Our offices in New York)."
+            },
+            {
+              "id": "locationsListItemElements",
+              "name": "Location Elements",
+              "type": "checklist",
+              "checklist": {
+                "options": [
+                  {
+                    "value": "title",
+                    "name": "Title"
+                  },
+                  {
+                    "value": "image",
+                    "name": "Image"
+                  },
+                  {
+                    "value": "address",
+                    "name": "Address"
+                  },
+                  {
+                    "value": "phone",
+                    "name": "Phone"
+                  },
+                  {
+                    "value": "workingHours",
+                    "name": "Working hours"
+                  }
+                ]
+              },
+              "defaultValue": [
+                "title",
+                "image",
+                "address",
+                "phone",
+                "workingHours"
+              ],
+              "description": "Check the location elements to display for each location on the list."
+            }
+          ]
+        }
+      },
+      {
+        "id": "center",
+        "name": "Center (address, coordinates, auto)",
+        "tab": "map",
+        "type": "text",
+        "defaultValue": "auto",
+        "description": "Set the default map center. You can set its name or address in text format or set the specific coordinates (latitude, longitude separated by a comma). Set \"auto\" to automatically calculate the center depending on the markers' position."
+      },
+      {
+        "id": "zoom",
+        "name": "Zoom (0-20, auto)",
+        "tab": "map",
+        "type": "text",
+        "defaultValue": "16",
+        "description": "Set the default map zoom. It supports numeric values 0-20. You can also set \"auto\" and zoom will be calculated automatically to display all the set markers."
+      },
+      {
+        "id": "mapType",
+        "name": "Map type",
+        "tab": "map",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "value": "roadmap",
+              "name": "Roadmap"
+            },
+            {
+              "value": "satellite",
+              "name": "Satellite"
+            },
+            {
+              "value": "hybrid",
+              "name": "Hybrid"
+            },
+            {
+              "value": "terrain",
+              "name": "Terrain"
+            }
+          ]
+        },
+        "defaultValue": "roadmap",
+        "description": "Select your map type from the list."
+      },
+      {
+        "id": "controls",
+        "name": "Controls",
+        "tab": "map",
+        "type": "checklist",
+        "checklist": {
+          "options": [
+            {
+              "value": "zoom",
+              "name": "Zoom"
+            },
+            {
+              "value": "mapType",
+              "name": "Map Type"
+            },
+            {
+              "value": "scale",
+              "name": "Scale"
+            },
+            {
+              "value": "streetView",
+              "name": "Street View"
+            },
+            {
+              "value": "rotate",
+              "name": "Rotate"
+            },
+            {
+              "value": "fullscreen",
+              "name": "Fullscreen"
+            }
+          ]
+        },
+        "defaultValue": [
+          "zoom",
+          "mapType",
+          "scale",
+          "streetView",
+          "rotate",
+          "fullscreen"
+        ],
+        "description": "Select the map controls to be displayed on the map."
+      },
+      {
+        "id": "scrollwheel",
+        "name": "Scroll wheel scaling",
+        "tab": "map",
+        "type": "toggle",
+        "defaultValue": false,
+        "description": "This option lets you scale the map with the mouse scrolling wheel."
+      },
+      {
+        "id": "draggable",
+        "name": "Enable dragging",
+        "tab": "map",
+        "type": "toggle",
+        "defaultValue": true,
+        "description": "This option lets you move the map in the map window."
+      },
+      {
+        "id": "layers",
+        "name": "Layers",
+        "tab": "map",
+        "type": "checklist",
+        "checklist": {
+          "options": [
+            {
+              "value": "poi",
+              "name": "POI"
+            },
+            {
+              "value": "traffic",
+              "name": "Traffic"
+            },
+            {
+              "value": "transit",
+              "name": "Transit"
+            },
+            {
+              "value": "bike",
+              "name": "Bike"
+            },
+            {
+              "value": "streetView",
+              "name": "Street View"
+            }
+          ]
+        },
+        "defaultValue": ["poi"],
+        "description": "Set the layers to be displayed on the map."
+      },
+      {
+        "id": "lang",
+        "name": "Language",
+        "tab": "map",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "value": "ar",
+              "name": "Arabic"
+            },
+            {
+              "value": "be",
+              "name": "Belarusian"
+            },
+            {
+              "value": "bg",
+              "name": "Bulgarian"
+            },
+            {
+              "value": "bn",
+              "name": "Bengali"
+            },
+            {
+              "value": "ca",
+              "name": "Catalan"
+            },
+            {
+              "value": "cs",
+              "name": "Czech"
+            },
+            {
+              "value": "da",
+              "name": "Danish"
+            },
+            {
+              "value": "de",
+              "name": "German"
+            },
+            {
+              "value": "el",
+              "name": "Greek"
+            },
+            {
+              "value": "en",
+              "name": "English"
+            },
+            {
+              "value": "en-Au",
+              "name": "English (Australian)"
+            },
+            {
+              "value": "en-GB",
+              "name": "English (Great Britain)"
+            },
+            {
+              "value": "es",
+              "name": "Spanish"
+            },
+            {
+              "value": "eu",
+              "name": "Basque"
+            },
+            {
+              "value": "fa",
+              "name": "Farsi"
+            },
+            {
+              "value": "fi",
+              "name": "Finnish"
+            },
+            {
+              "value": "fil",
+              "name": "Filipino"
+            },
+            {
+              "value": "fr",
+              "name": "French"
+            },
+            {
+              "value": "gl",
+              "name": "Galician"
+            },
+            {
+              "value": "gu",
+              "name": "Gujarati"
+            },
+            {
+              "value": "hi",
+              "name": "Hindi"
+            },
+            {
+              "value": "hr",
+              "name": "Croatian"
+            },
+            {
+              "value": "hu",
+              "name": "Hungarian"
+            },
+            {
+              "value": "id",
+              "name": "Indonesian"
+            },
+            {
+              "value": "it",
+              "name": "Italian"
+            },
+            {
+              "value": "iw",
+              "name": "Hebrew"
+            },
+            {
+              "value": "ja",
+              "name": "Japanese"
+            },
+            {
+              "value": "kk",
+              "name": "Kazakh"
+            },
+            {
+              "value": "kn",
+              "name": "Kannada"
+            },
+            {
+              "value": "ko",
+              "name": "Korean"
+            },
+            {
+              "value": "ky",
+              "name": "Kyrgyz"
+            },
+            {
+              "value": "lt",
+              "name": "Lithuanian"
+            },
+            {
+              "value": "lv",
+              "name": "Latvian"
+            },
+            {
+              "value": "mk",
+              "name": "Macedonian"
+            },
+            {
+              "value": "ml",
+              "name": "Malayalam"
+            },
+            {
+              "value": "mr",
+              "name": "Marathi"
+            },
+            {
+              "value": "my",
+              "name": "Burmese"
+            },
+            {
+              "value": "nl",
+              "name": "Dutch"
+            },
+            {
+              "value": "no",
+              "name": "Norwegian"
+            },
+            {
+              "value": "pa",
+              "name": "Punjabi"
+            },
+            {
+              "value": "pl",
+              "name": "Polish"
+            },
+            {
+              "value": "pt",
+              "name": "Portuguese"
+            },
+            {
+              "value": "pt-BR",
+              "name": "Portuguese (Brazil)"
+            },
+            {
+              "value": "pt-PT",
+              "name": "Portuguese (Portugal)"
+            },
+            {
+              "value": "ro",
+              "name": "Romanian"
+            },
+            {
+              "value": "ru",
+              "name": "Russian"
+            },
+            {
+              "value": "sk",
+              "name": "Slovak"
+            },
+            {
+              "value": "sl",
+              "name": "Slovenian"
+            },
+            {
+              "value": "sq",
+              "name": "Albanian"
+            },
+            {
+              "value": "sr",
+              "name": "Serbian"
+            },
+            {
+              "value": "sv",
+              "name": "Swedish"
+            },
+            {
+              "value": "ta",
+              "name": "Tamil"
+            },
+            {
+              "value": "te",
+              "name": "Telugu"
+            },
+            {
+              "value": "th",
+              "name": "Thai"
+            },
+            {
+              "value": "tr",
+              "name": "Turkish"
+            },
+            {
+              "value": "uk",
+              "name": "Ukrainian"
+            },
+            {
+              "value": "uz",
+              "name": "Uzbek"
+            },
+            {
+              "value": "vi",
+              "name": "Vietnamese"
+            },
+            {
+              "value": "zh-CN",
+              "name": "Chinese (Simlified)"
+            },
+            {
+              "value": "zh-TW",
+              "name": "Chinese (Traditional)"
+            }
+          ]
+        },
+        "defaultValue": "en",
+        "description": "Choose one of available languages of the info window UI."
+      },
+      {
+        "id": "style",
+        "name": "Color scheme",
+        "tab": "style",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "value": "default",
+              "name": "Default"
+            },
+            {
+              "value": "silver",
+              "name": "Silver"
+            },
+            {
+              "value": "night",
+              "name": "Night"
+            },
+            {
+              "value": "retro",
+              "name": "Retro"
+            },
+            {
+              "value": "custom",
+              "name": "Custom"
+            }
+          ]
+        },
+        "defaultValue": "default",
+        "description": "Select one of the four predefined color schemes. Set custom colors to create your own scheme."
+      },
+      {
+        "id": "customColors",
+        "name": "Custom Colors",
+        "tab": "style",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "colorGeometry",
+              "name": "Geometry",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorLabelsTextFill",
+              "name": "Labels Text Fill",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorLabelsTextStroke",
+              "name": "Labels Text Stroke",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorAdministrativeGeometryStroke",
+              "name": "Administrative Geometry Stroke",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorAdministrativeLandParcel",
+              "name": "Administrative Land Parcel",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorLandscapeNaturalGeometry",
+              "name": "Landscape Natural Geometry",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorPoiGeometry",
+              "name": "Poi",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorPoiLabelsTextFill",
+              "name": "Poi Text Fill",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorPoiParkGeometryFill",
+              "name": "Park Geometry Fill",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorPoiParkLabelsTextFill",
+              "name": "Park Labels Text Fill",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorRoadGeometry",
+              "name": "Road",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorRoadArterial",
+              "name": "Road Arterial",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorRoadHighway",
+              "name": "Road Highway",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorRoadHighwayGeometryStroke",
+              "name": "Road Highway Geometry Stroke",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorRoadHighwayControlledAccessGeometry",
+              "name": "Road Highway Controlled Access Geometry",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorRoadHighwayControlledAccessGeometryStroke",
+              "name": "Road Highway Controlled Access Geometry Stroke",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorRoadLocalLabelsTextFill",
+              "name": "Road Local Labels Text Fill",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorTransitLineGeometry",
+              "name": "Transit Line",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorTransitLineLabelsTextFill",
+              "name": "Transit Line Labels Text Fill",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorTransitLineLabelsTextStroke",
+              "name": "Transit Line Labels Text Stroke",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorTransitStationGeometry",
+              "name": "Transit Station Geometry",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorWaterGeometryFill",
+              "name": "Water",
+              "type": "color",
+              "defaultValue": ""
+            },
+            {
+              "id": "colorWaterLabelTextFill",
+              "name": "Water Labels",
+              "type": "color",
+              "defaultValue": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "preferences": {
+    "previewUpdateTimeout": 500
+  }
+}

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://34.76.93.122/xmlrpc.php">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://34.76.93.122/wp-content/uploads/2018/11/16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="http://34.76.93.122/wp-content/uploads/2018/11/32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="http://34.76.93.122/wp-content/uploads/2018/11/96x96.png"><link rel="icon" type="image/png" sizes="160x160" href="http://34.76.93.122/wp-content/uploads/2018/11/160x160.png"><link rel="icon" type="image/png" sizes="192x192" href="http://34.76.93.122/wp-content/uploads/2018/11/192x192.png"><link rel="apple-touch-icon" sizes="114x114" href="http://34.76.93.122/wp-content/uploads/2018/11/114x114.png"><link rel="apple-touch-icon" sizes="72x72" href="http://34.76.93.122/wp-content/uploads/2018/11/72x72.png"><link rel="apple-touch-icon" sizes="144x144" href="http://34.76.93.122/wp-content/uploads/2018/11/144x144.png"><link rel="apple-touch-icon" sizes="60x60" href="http://34.76.93.122/wp-content/uploads/2018/11/60x60.png"><link rel="apple-touch-icon" sizes="120x120" href="http://34.76.93.122/wp-content/uploads/2018/11/120x120.png">	<title>wordpressplugins &#8211; Just another WordPress site</title>
+<meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="wordpressplugins &raquo; Kanał z wpisami" href="http://34.76.93.122/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="wordpressplugins &raquo; Kanał z komentarzami" href="http://34.76.93.122/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/34.76.93.122\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.9"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='image-hover-effects-css-css'  href='http://34.76.93.122/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=4.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css-css'  href='http://34.76.93.122/wp-content/plugins/mega-addons-for-visual-composer/css/style.css?ver=4.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-latest-css'  href='http://34.76.93.122/wp-content/plugins/mega-addons-for-visual-composer/css/font-awesome/css/font-awesome.css?ver=4.9.9' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='bsf-Defaults-css'  href='http://34.76.93.122/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=4.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='bsf-elegant-icon-css'  href='http://34.76.93.122/wp-content/uploads/smile_fonts/elegant-icon/elegant-icon.css?ver=4.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='melinda_google_fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700%7CVarela&#038;ver=4.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='melinda_style-css'  href='http://34.76.93.122/wp-content/themes/melinda/style.css?ver=4.9.9' type='text/css' media='all' />
+<style id='melinda_style-inline-css' type='text/css'>
+html {
+	}
+
+body {
+	}
+
+
+
+
+	@media (min-width: 768px) {
+		.main-h-top > .container,
+		.main-h-bottom > .container {
+			width:100%;
+			padding-right:30px;
+			padding-left:30px;
+		}
+	}
+	@media (min-width: 1200px) {
+		.main-h-top > .container,
+		.main-h-bottom:not(.__boxed) > .container {
+			padding-right:60px;
+			padding-left:60px;
+		}
+	}
+		@media (min-width: 768px) {
+		.main-cnts-w > .container,
+		.main-cnts-before > .container,
+		.main-cnts-after > .container {
+			width:100%;
+			max-width:1740px;
+			padding-right:30px;
+			padding-left:30px;
+		}
+			}
+	@media (min-width: 1200px) {
+		.main-cnts-w > .container,
+		.main-cnts-before > .container,
+		.main-cnts-after > .container {
+			padding-right:60px;
+			padding-left:60px;
+		}
+	}
+		@media (min-width: 768px) {
+		.main-f-top > .container,
+		.main-f-bottom > .container {
+			width:100%;
+			max-width:1740px;
+			padding-right:30px;
+			padding-left:30px;
+		}
+	}
+	@media (min-width: 1200px) {
+		.main-f-top > .container,
+		.main-f-bottom > .container {
+			padding-right:60px;
+			padding-left:60px;
+		}
+	}
+	
+	.main-h-bottom-w {
+		border-top-width:0;border-right-width:0;border-bottom-width:1px;border-left-width:0;border-style:solid;border-color:rgba(189,189,189,0.2);padding-top:15px;padding-bottom:15px;	}
+
+	.main-h-bottom:not(.__fixed) .mods-w.__with_separator:before {
+		border-color:rgba(189,189,189,0.2);	}
+
+	.main-h-bottom:not(.__fixed) .logo-w {
+		padding-top:10px;padding-bottom:10px;	}
+
+	.main-h-bottom:not(.__fixed) .mods {
+			}
+
+	.main-h-bottom:not(.__fixed) .main-menu-w {
+		padding-top:14px;padding-bottom:10px;	}
+
+	.main-h-bottom:not(.__fixed) .add-menu-w {
+			}
+
+	.logo-w,
+	.main-menu,
+	.add-menu,
+	.popup-menu,
+	.mobile-menu,
+	.main-h-bottom .mods_el-tx,
+	.main-h-bottom .mods_el-ic {
+			}
+
+
+	.t-w {
+		border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-style:solid;border-color:inherit;padding-top:150px;padding-bottom:180px;text-align:left;	}
+
+	.t-w_bg {
+			}
+
+	.breadcrumb {
+			}
+
+	.t-w_sub-h,
+	.t-w_subcat {
+			}
+
+	.t-w_h {
+			}
+
+	.t-w_desc {
+		font-size:22px;line-height:32px;	}
+
+	@media (min-width: 768px) {
+		.t-w_desc {
+			margin-left:0;		}
+	}
+
+.main-cnts-w {
+	border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-style:solid;border-color:inherit;}
+
+	.main-f-top {
+		border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-style:solid;border-color:inherit;background-color:#26272d;	}
+
+	.main-f-top .widget_h,
+	.main-f-top .widget .fa,
+	.rpwwt-widget ul li a {
+			}
+
+
+	.main-f-bottom {
+		border-top-width:1px;border-right-width:0;border-bottom-width:0;border-left-width:0;border-style:solid;border-color:#333439;background-color:#26272d;	}
+
+	.main-f-bottom .mods_el-tx,
+	.main-f-bottom .mods_el-menu,
+	.main-f-bottom .mods_el-ic {
+			}
+
+
+.client-opacity img {opacity: 0.4; -webkit-transition: .4s all; transition: .4s all;}
+.client-opacity:hover img {opacity: 1;}
+.nomargin { margin-bottom: 0 !important;}
+</style>
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Przepraszamy, ten produkt jest niedostępny. Prosimy wybrać inną kombinację.</p>
+</script>
+<script type='text/javascript' src='http://34.76.93.122/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/plugins/mega-addons-for-visual-composer/js/script.js?ver=4.9.9'></script>
+<link rel='https://api.w.org/' href='http://34.76.93.122/index.php?rest_route=/' />
+<link rel="canonical" href="http://34.76.93.122/" />
+<link rel='shortlink' href='http://34.76.93.122/' />
+<link rel="alternate" type="application/json+oembed" href="http://34.76.93.122/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2F34.76.93.122%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://34.76.93.122/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2F34.76.93.122%2F&#038;format=xml" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://34.76.93.122/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home page-template-default page page-id-11 woocommerce-no-js wpb-js-composer js-comp-ver-5.5.2 vc_responsive">
+	<section class="
+		main-w
+		js--main-w
+		 __normal	">
+		<div class="main-brd __top"></div>
+		<div class="main-brd __right"></div>
+		<div class="main-brd __bottom"></div>
+		<div class="main-brd __left"></div>
+
+		<header>
+
+			<div class="main-h js--main-h __negative">
+				
+<div class="main-h-bottom-w"><div class="
+	main-h-bottom
+	js--main-h-bottom
+	 __light __layout1 js--fixed-header"><div class="container"><div class="main-h-bottom-cnt">
+
+
+	
+
+			<div class="logo-w __dark" style="width:278px">
+			<a href="http://34.76.93.122/">
+				<img class="logo " alt="wordpressplugins" src="http://34.76.93.122/wp-content/uploads/2018/11/logo_white.jpg">
+							</a>
+		</div>
+					<div class="logo-w __light" style="width:278px">
+				<a href="http://34.76.93.122/">
+					<img class="logo " alt="wordpressplugins" src="http://34.76.93.122/wp-content/uploads/2018/11/logo.png">
+									</a>
+			</div>
+		
+
+	<div class="main-h-bottom_menu-and-mods">
+
+					<div class="mods-w __with_separator">
+
+				<div class="mods">
+
+					
+								<div class="mods_el hidden-sm hidden-md hidden-lg"><div class="mobile-mod-w">
+			<a href="#" class="js--show-next"><span class="mods_el-ic"><span class="icon-plus xbig"></span></span></a>
+			<div class="mobile-mod js--show-me">
+				
+				
+				
+				
+							</div>
+		</div></div>
+		
+						
+						
+						
+						
+								<div class="mods_el"><div class="minicart __lg">
+			<a href="http://34.76.93.122/?page_id=1802" title="View your shopping cart" class="minicart_lk js--show-next">
+				<span class="mods_el-ic">
+					<span class="icon-bag xbig"></span>
+					<span class="minicart_count __zero js--minicart_count">0</span>
+				</span>
+			</a>
+			<div class="minicart_cnt js--show-me"><div class="widget_shopping_cart_content"></div></div>
+		</div></div>
+		
+								<div class="mods_el"><div class="search-form-popup-w js--focus-w">
+			<a href="#" class="js--show-next js--focus"><span class="mods_el-ic"><span class="icon-search xbig"></span></span></a>
+			<div class="search-form js--show-me">
+	<a href="#" class="search-form-popup_close js--hide-me"><span class="icon-cross"></span></a>
+	<form
+		role="search"
+		method="get"
+		action="http://34.76.93.122/"
+	>
+		<input
+			class="search-form_it js--focus-me"
+			type="search"
+			value=""
+			name="s"
+			placeholder="Search"
+			size="40"
+		><button
+			class="search-form_button"
+			type="submit"
+			value="Search"
+		><span class="icon-search search-form_button-ic"></span><span class="search-form_button-tx">Search</span></button>
+			</form>
+</div>		</div></div>
+		
+						
+						
+					
+												<span class="mods_el hidden-xs hidden-lg __separator"></span>
+	<div class="mods_el hidden-lg"><div class="popup-menu-mod">
+		<a href="#" class="js--show-next"><span class="mods_el-ic"><span class="icon-menu xbig"></span></span></a>
+		<div class="popup-menu-popup js--show-me js-popup-menu-popup">
+			<span class="vertical-helper"></span><nav class="popup-menu-w">Assign a menu at Appearance &gt; Menus</nav>
+			<a href="#" class="popup-menu-popup-close js--hide-me"><span class="icon-cross"></span></a>
+		</div>
+	</div></div>
+						
+				</div>
+
+			</div>
+		
+					<nav class="main-menu-w hidden-xs hidden-sm hidden-md"><ul id="menu-additional-menu" class="js--scroll-nav main-menu"><li id="menu-item-11220" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11220"><a href="http://themes.tvda.pw">Buy Theme</a></li>
+<li id="menu-item-11221" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11221"><a href="/blog/">Blog</a></li>
+<li id="menu-item-11222" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11222"><a href="/shop/">Shop</a></li>
+</ul></nav>
+		
+	</div>
+
+
+	
+
+</div></div></div></div>
+			</div>
+
+
+			<div class="
+	t-w
+	js--t-w
+	 __parallax">
+
+
+			<div class="t-w_bg js--t-w-bg"
+				></div>
+				<div class="t-w_bg-overlay" style="background-color:;"></div>
+
+
+	<div class="js--under-main-h"></div>
+
+
+	<div class="t-w_cnt js--t-w-cnt">
+		<div class="container">
+		<h1 class="t-w_h">Homepage</h1>		</div>
+	</div>
+
+
+	
+
+</div>
+
+		</header>
+
+		<div class="main-cnts-before">
+					</div>
+
+		<div id="main-content" class="main-cnts-w">
+			<div class="container">									
+					<main class="main-cnts ">
+
+	
+		<article id="page-11" class="post-11 page type-page status-publish hentry">
+			
+					</article>
+
+		
+	
+
+					</main>
+
+												</div>		</div>
+
+		<div class="main-cnts-after">
+					</div>
+
+		<footer class="
+			main-f
+			js--main-f
+			js--main-f-fixed		"><div class="main-f-inner js--main-f-inner">
+			<div class="main-f-top">
+	<div class="container">
+		<div class="row">
+																				</div>
+	</div>
+</div>
+<div class="main-f-bottom">
+	<div class="container">
+		<div class="row">
+							<div class="col-sm-6">
+					<div class="
+						mods
+						text-center
+						text-left-sm
+					">
+						<div class="mods_el"><div class="small mods_el-tx">All rights reserved.</div></div> <span class="mods_el __separator"></span>											</div>
+				</div>
+										<div class="col-sm-6">
+					<div class="
+						mods
+						text-center
+						text-right-sm
+					">
+						
+						
+						
+											</div>
+				</div>
+					</div>
+	</div>
+</div>
+		</div></footer>
+
+					<a href="#" class="go_to_top js--go_to_top"><span class="icon-arrow-up"></span></a>
+		
+		<div class="popup-quick-view js--popup-quick-view">
+			<div class="popup-quick-view_loader"><i class="fa fa-spinner fa-pulse fa-3x"></i></div>
+			<a href="#" class="popup-quick-view_close-bg js--popup-quick-view-close"></a>
+			<span class="vertical-helper"></span><div class="popup-quick-view_cnt js--popup-quick-view-cnt"></div>
+		</div>
+	</section>
+
+	<!-- PhotoSwipe -->
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+				</button>
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+				</button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End PhotoSwipe -->
+
+			<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<script type='text/javascript' src='http://34.76.93.122/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Zobacz koszyk","cart_url":"http:\/\/34.76.93.122\/?page_id=1802","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_2d67786a242c2db9cb9138bad7322658","fragment_name":"wc_fragments_2d67786a242c2db9cb9138bad7322658"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=5.5.2'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://34.76.93.122/wp-includes/js/wp-util.min.js?ver=4.9.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Przepraszamy, \u017caden produkt nie spe\u0142nia twojego wyboru. Prosimy wybra\u0107 inn\u0105 kombinacj\u0119.","i18n_make_a_selection_text":"Wybierz opcje produktu przed dodaniem go do koszyka.","i18n_unavailable_text":"Przepraszamy, ten produkt jest niedost\u0119pny. Prosimy wybra\u0107 inn\u0105 kombinacj\u0119."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/themes/melinda/scripts/vendor/requestAnimationFrame/requestAnimationFrame.js?ver=4.9.9'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/themes/melinda/scripts/vendor/jquery-ui/jquery-ui.min.js?ver=4.9.9'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/themes/melinda/scripts/vendor/flexslider/jquery.flexslider-min.js?ver=4.9.9'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/themes/melinda/scripts/vendor/photoswipe/dist/photoswipe-ui-default.min.js?ver=4.9.9'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/themes/melinda/scripts/vendor/isotope/dist/isotope.pkgd.min.js?ver=4.9.9'></script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/themes/melinda/scripts/vendor/jquery-smooth-scroll/jquery.smooth-scroll.min.js?ver=4.9.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxurl = {"url":"http:\/\/34.76.93.122\/wp-admin\/admin-ajax.php","nonce":"5a3efab62c"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://34.76.93.122/wp-content/themes/melinda/scripts/local/main.js?ver=4.9.9'></script>
+<script type='text/javascript'>
+(function($) {
+		
+		
+	})(jQuery);
+</script>
+<script type='text/javascript' src='http://34.76.93.122/wp-includes/js/wp-embed.min.js?ver=4.9.9'></script>
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 8/39 objects using disk
+Page Caching using disk: enhanced 
+Database Caching using disk
+
+Served from: 34.76.93.122 @ 2019-01-31 13:25:57 by W3 Total Cache
+-->

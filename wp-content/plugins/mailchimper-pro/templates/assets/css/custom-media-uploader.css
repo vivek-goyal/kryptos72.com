@@ -1,0 +1,29 @@
+
+.image_container img
+{
+	width: 100%;
+}
+
+.imageelement {
+	width: 200px;
+	margin-top: 15px;
+	float: left;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.imageelement .remove-button, .imageelement .add-button {
+	width: 100% !important;
+}
+
+.save-container
+{
+	text-align: right;
+	margin: 0px 50px;
+}
+
+.button
+{
+	margin: 1px !important;
+}

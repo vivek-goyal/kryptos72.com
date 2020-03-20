@@ -1,0 +1,80 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: May 28, 2019 7:15 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.2
+WORDPRESS:	5.0.4
+PHP INFO:	7.0.33-0+deb9u3 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (500M default) 
+MEMORY STACK: 2MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+SQL CREATED: 20190528_wordpressplugins_76f21d80a6ac3ef53355_20190528071505_database.sql 
+SQL FILE SIZE: 11.34MB (11894103) 
+SQL FILE TIME: 2019-05-28 07:15:31 
+SQL RUNTIME: 0.38 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /var/www/html 
+ARCHIVE FILE: 20190528_wordpressplugins_76f21d80a6ac3ef53355_20190528071505_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	506.02MB 
+STATS:	Dirs 2,903 | Files 19,314 
+SQL ADDED: 20190528_wordpressplugins_76f21d80a6ac3ef53355_20190528071505_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 22217
+    [filename] => /var/www/html/wp-snapshots/tmp/20190528_wordpressplugins_76f21d80a6ac3ef53355_20190528071505_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 317.83MB 
+ARCHIVE RUNTIME: 46.94 sec. 
+MEMORY STACK: 8.02MB 
+building installer 
+add_extra_files1 
+add_extra_files2 
+add_extra_files3 
+add_extra_files4 
+Doing archive file check 
+add_extra_files5 
+add_extra_files6 
+add_extra_files8 
+Successfully opened zip /var/www/html/wp-snapshots/tmp/20190528_wordpressplugins_76f21d80a6ac3ef53355_20190528071505_archive.zip 
+Adding enhanced installer files to archive using ZipArchive 
+Installer files added to archive 
+Added to archive 
+After ziparchive close when adding installer 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 11.34MB 
+Installer File: 32.96KB 
+Archive File: 318.79MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 50.67 sec.
+PEAK PHP MEMORY USED: 8.02MB
+DONE PROCESSING => 20190528_wordpressplugins May 28, 2019 7:16 am
+ 

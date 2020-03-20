@@ -1,0 +1,24 @@
+
+---Upload files---
+Widget file was not uploaded. Error: Plik jest pusty. Proszę wysłać plik, który zawiera jakieś dane. Ten błąd mógł również zostać spowodowany przez wyłączenie możliwości wysyłania plików na serwer lub nadanie ustawieniu post_max_size wartości mniejszej niż ustawieniu upload_max_filesize w pliku php.ini.
+
+---Upload files---
+Customizer file was not uploaded. Error: Plik jest pusty. Proszę wysłać plik, który zawiera jakieś dane. Ten błąd mógł również zostać spowodowany przez wyłączenie możliwości wysyłania plików na serwer lub nadanie ustawieniu post_max_size wartości mniejszej niż ustawieniu upload_max_filesize w pliku php.ini.
+
+---Upload files---
+Redux file was not uploaded. Error: Plik jest pusty. Proszę wysłać plik, który zawiera jakieś dane. Ten błąd mógł również zostać spowodowany przez wyłączenie możliwości wysyłania plików na serwer lub nadanie ustawieniu post_max_size wartości mniejszej niż ustawieniu upload_max_filesize w pliku php.ini.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://kryptos72.pl
+Data file = //wp-content/uploads/2018/11/all-content.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+

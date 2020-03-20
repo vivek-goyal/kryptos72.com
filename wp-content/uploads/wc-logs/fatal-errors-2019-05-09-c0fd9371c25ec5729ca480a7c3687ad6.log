@@ -1,0 +1,45 @@
+2019-05-09T14:38:52+00:00 CRITICAL Uncaught Error: Class 'WP_Mail' not found in /var/www/html/wp-content/plugins/free-trial/free-trial.php:145
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): submit_ajax_form_callback('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(114): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown w /var/www/html/wp-content/plugins/free-trial/free-trial.php w linii 145
+
+2019-05-09T14:44:21+00:00 CRITICAL Uncaught Error: Class 'WP_Mail' not found in /var/www/html/wp-content/plugins/free-trial/free-trial.php:145
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): submit_ajax_form_callback('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(114): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown w /var/www/html/wp-content/plugins/free-trial/free-trial.php w linii 145
+
+2019-05-09T17:51:07+00:00 CRITICAL Uncaught Error: Class 'WP_Mail' not found in /var/www/html/wp-content/plugins/free-trial/free-trial.php:118
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): submit_ajax_form_callback('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(114): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown w /var/www/html/wp-content/plugins/free-trial/free-trial.php w linii 118
+
+2019-05-09T18:00:38+00:00 CRITICAL Uncaught Error: Class 'wp_mail' not found in /var/www/html/wp-content/plugins/free-trial/free-trial.php:118
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): submit_ajax_form_callback('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(114): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown w /var/www/html/wp-content/plugins/free-trial/free-trial.php w linii 118
+
+2019-05-09T18:02:13+00:00 CRITICAL Uncaught Error: Class 'wp_mail' not found in /var/www/html/wp-content/plugins/free-trial/free-trial.php:118
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): submit_ajax_form_callback('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(114): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown w /var/www/html/wp-content/plugins/free-trial/free-trial.php w linii 118
+

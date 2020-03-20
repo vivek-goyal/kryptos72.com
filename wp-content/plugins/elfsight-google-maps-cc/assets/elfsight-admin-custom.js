@@ -1,0 +1,11 @@
+/*
+    Elfsight Google Maps
+    Version: 1.6.1
+    Release date: Wed Aug 29 2018
+
+    https://elfsight.com
+
+    Copyright (c) 2018 Elfsight, LLC. ALL RIGHTS RESERVED
+*/
+
+!function(f,e,g){"use strict";e.add("api-key",f.noop),f(function(){var n,i,t,s,o,e="elfsight-admin-page-api-key",r="elfsight-admin-page-api-key-form",a=f(".elfsight-admin");f(".elfsight-admin-wrapper"),f("."+e),f("."+e+"-container");n=f("."+r),i=n.find("."+r+"-input"),t=n.find("."+r+"-button-connect"),n.find("."+r+"-description-fail-message"),n.find("."+r+"-reload"),n.find("."+r+"-error-empty");var d=i.val();function c(e){f("."+r).removeClass([r+"-connect",r+"-success",r+"-fail"].join(" ")).addClass(r+"-"+e),a.toggleClass("elfsight-admin-api-key-invalid","success"!==e),"success"===(s=e)?(i.attr("readonly",!0),t.text("Clear API key").addClass("elfsight-admin-button-gray").removeClass("elfsight-admin-button-green")):(i.attr("readonly",!1),t.text("Save API key").addClass("elfsight-admin-button-green").removeClass("elfsight-admin-button-gray"))}function l(e){return f.post(ajaxurl,{action:"elfsight_google_maps_update_api_key",api_key:e,nonce:i.attr("data-nonce")})}function u(e){return e&&/^(.{39})$/.test(e)}u(d)?c("success"):c("connect"),g.addEventListener("message",function(e){var a=e.data;a.action&&~a.action.search("EappsPreview.appPreferences.updated")&&(o=a.data).apiKey&&(d=o.apiKey)!=i.val()&&(i.val(d).attr("readonly",!0),t.text("Clear API key").addClass("elfsight-admin-button-gray").removeClass("elfsight-admin-button-green"),c("success"),l(d).then(function(){document.location.reload()}))}),t.click(function(){if("success"===s&&i.val(""),d!==i.val()||""===i.val()){var e,a,t;if(""===(d=i.val()))return"success"===s&&(n.addClass(r+"-reload-active"),l(d).then(function(){document.location.reload()})),void c("connect");""!==d&&u(d)?(e=d,a=f.Deferred(),t="https://maps.googleapis.com/maps/api/geocode/json?"+f.param({address:"1600+Amphitheatre+Parkway,+Mountain+View,+CA",key:e}),f.get(t,function(e){"OK"===e.status?a.resolve():a.reject()}),a.promise()).then(function(){c("success"),n.addClass(r+"-reload-active"),l(d).then(function(){document.location.reload()})}).fail(function(){c("fail")}):c("fail")}})})}(window.jQuery,window.elfsightAdminPagesController||{},window);
